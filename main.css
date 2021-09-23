@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("img-2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'montserrat', sans-serif;
+    min-height: 100vh;
+}
+
+.main {
+    align-items: center;
+    text-align: center;
+    margin: 0%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+}
+
+input {
+    width: 100%;
+    max-width: 280px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px 0 16px 0;
+    outline: none;
+    margin: 4% 0 1% 0;
+    border: none;
+    font-weight: 300;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-bottom: #DF8E00 3px solid;
+    transition: 0.2s ease-out;
+}
+
+.main input::placeholder {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.main input:focus::placeholder {
+    opacity: 0;
+}
+
+.main input:focus {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.main .sub-div .cityName {
+    font-size: 2rem;
+    color: white;
+    margin: 1% 3% 0.5% 3%;
+}
+
+.main .sub-div .temp {
+    font-size: 5rem;
+    color: white;
+    margin: 0.5% 3%;
+    font-weight: 900;
+}
+
+.main .sub-div .date {
+    color: white;
+    font-weight: 600px;
+    margin: 0.5%;
+}
+
+.main .sub-div .weather {
+    font-size: 2rem;
+    color: white;
+    margin: 0.5%;
+}
+
+.main .sub-div .hilow {
+    font-size: 2rem;
+    margin: 0.5% 2%;
+    color: white;
+}
+
+@media only screen and (max-width: 968px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: url("img-2.jpg") no-repeat center center fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'montserrat', sans-serif;
+        min-height: 100vh;
+    }
+    .main {
+        align-items: center;
+        text-align: center;
+        margin: 0%;
+        min-height: 100vh;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+    }
+    input {
+        width: 100%;
+        max-width: 280px;
+        height: 35px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 16px 0 16px 0;
+        outline: none;
+        margin: 12% 0 3% 0;
+        border: none;
+        font-weight: 300;
+        padding: 10px 15px;
+        font-size: 20px;
+        border-bottom: #DF8E00 3px solid;
+        transition: 0.2s ease-out;
+    }
+    .main input::placeholder {
+        color: rgba(0, 0, 0, 0.8);
+    }
+    .main input:focus::placeholder {
+        opacity: 0;
+    }
+    .main input:focus {
+        background: rgba(255, 255, 255, 0.6);
+    }
+    .main .sub-div .cityName {
+        font-size: 2rem;
+        color: white;
+        margin: 7% 3% 1% 3%;
+    }
+    .main .sub-div .temp {
+        font-size: 5rem;
+        color: white;
+        margin: 1% 3%;
+        font-weight: 900;
+    }
+    .main .sub-div .date {
+        color: white;
+        font-weight: 600px;
+    }
+    .main .sub-div .weather {
+        font-size: 2rem;
+        color: white;
+        margin: 1%;
+    }
+    .main .sub-div .hilow {
+        font-size: 2rem;
+        color: white;
+    }
+}
